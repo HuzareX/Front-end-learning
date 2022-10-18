@@ -1,0 +1,163 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	background-color: rgb(255, 255, 255);
+}
+
+.wrapper {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.hero-bg {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.hero-text {
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: small;
+}
+
+.hero-text h1 {
+	margin-bottom: 5px;
+	text-shadow: 3px 3px 5px black;
+}
+
+.hero-text span {
+	text-transform: uppercase;
+	color: rgb(32, 153, 153);
+}
+.section-title {
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+main {
+	margin: 60px 0;
+}
+
+.about-us-info {
+	margin-bottom: 10px;
+	padding: 0 20px;
+}
+
+/* produkty */
+.products {
+	margin: 60px auto;
+}
+
+.product {
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	position: relative;
+	height: 400px;
+}
+
+.first-product {
+	background-image: url(../img/children-small.jpg);
+}
+.second-product {
+	background-image: url(../img/keyboard-small.jpg);
+}
+.third-product {
+	background-image: url(../img/woman-small.jpg);
+}
+.fourth-product {
+	background-image: url(../img/laptop-small.jpg);
+}
+.product h3 {
+	text-transform: uppercase;
+}
+
+nav {
+	height: 60px;
+	line-height: 60px;
+	background-color: #ddd;
+	text-align: center;
+}
+
+.burger-icon {
+	display: block;
+	margin-left: auto;
+	padding: 0 30px;
+	background: none;
+	border: none;
+	font-size: 30px;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+.nav-items {
+	display: none;
+}
+
+.header {
+	position: relative;
+	background-image: url(../img/bulldog-gca9f00687_640.jpg);
+	height: 330px;
+	background-size: cover;
+	background-position: center;
+}
+
+@media (min-width: 768px) {
+	.burger-icon {
+		display: none;
+	}
+	.nav-items {
+		display: block;
+	}
+	.nav-items a {
+		padding: 0 30px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: black;
+		font-weight: bold;
+		transition: color 0.4s;
+	}
+	.nav-items a:hover {
+		color: rgb(32, 153, 153);
+	}
+
+	.header {
+		background-image: url(../img/bulldog-ge3993e9f5_1920.jpg);
+		height: 400px;
+	}
+
+	.hero-text h1 {
+		font-size: 36px;
+	}
+
+	.hero-text p {
+		font-size: 18px;
+	}
+	.product h3 {
+		font-size: 24px;
+	}
+}
+
+@media (min-width: 992px)
+
+@media (min-width: 1200px) {
+	.hero-text h1 {
+		font-size: 42px;
+	}
+
+	.hero-text p {
+		font-size: 24px;
+	}
+}

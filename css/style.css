@@ -150,7 +150,16 @@ nav {
 	}
 }
 
-@media (min-width: 992px)
+@media (min-width: 992px) {
+
+.products-box {
+	font-size: 0;
+}
+	.product {
+		display: inline-block;
+		width: 45%;
+	}
+}
 
 @media (min-width: 1200px) {
 	.hero-text h1 {

@@ -106,6 +106,21 @@ nav {
 	display: none;
 }
 
+.contact {
+	text-align: center;
+}
+
+.contact h3 {
+	text-transform: uppercase;
+	margin: 20px 0 5px;
+}
+
+footer {
+	padding: 30px 10px;
+	text-align: center;
+	background-color: #ddd;
+}
+
 .header {
 	position: relative;
 	background-image: url(../img/bulldog-gca9f00687_640.jpg);
